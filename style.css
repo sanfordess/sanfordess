@@ -309,7 +309,7 @@ footer {
 	text-align:center;
 }
  .select select {
-    width: 50%; /* от ширины блока div */
+    width: 70%; /* от ширины блока div */
     padding: .75rem 2.5rem .75rem 1rem;/* отступы от текста до рамки */
     background: none; /* убираем фон */
     border: 2px solid #004483; /* рамка */
