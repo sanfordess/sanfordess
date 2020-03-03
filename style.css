@@ -262,6 +262,10 @@ footer {
 
 
 
+.vertical-menu{
+	width: 200px;
+}
+
 .metro {
   list-style: none;
   padding: 0;
@@ -269,10 +273,6 @@ footer {
   border-left: 7px solid #DAE4F1;
 }
 .metro li {line-height: 2em;}
-
-
-
-
 .metro a {
   font-size:17px;
   text-decoration: none;
@@ -303,6 +303,24 @@ footer {
 
 
 
+.select{
+	display:none;
+	width: 100%;
+	text-align:center;
+}
+ .select select {
+    width: 50%; /* от ширины блока div */
+    padding: .75rem 2.5rem .75rem 1rem;/* отступы от текста до рамки */
+    background: none; /* убираем фон */
+    border: 2px solid #004483; /* рамка */
+    border-radius: 5px;/* скругление полей формы */
+    -webkit-appearance: none;/* Chrome */
+    -moz-appearance: none;/* Firefox */
+    appearance: none;/* убираем дефолнтные стрелочки */
+    font-family: inherit;/* наследует от родителя */
+    font-size: 1rem;
+    color: #444;
+}
 
 
 
@@ -313,6 +331,9 @@ footer {
 @media (max-width: 768px) {
 	/* показываем кнопку для переключения верхней навигации */
 	.nav-toggle {
+		display: block;
+	}
+	.select {
 		display: block;
 	}
 	header {
