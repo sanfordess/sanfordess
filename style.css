@@ -21,7 +21,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Playfair Display';
+	color: #000;
 	font-weight: normal;
 	letter-spacing: 1px;
 }
@@ -186,123 +186,11 @@ footer {
 	color: #ae9e62;
 }
 
-/*product*/
-
-.name {
+/*каталог*/
+.section-name{
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
-
-.products {
-	list-style: none;
-	margin: 0 -20px 0 0;
-	padding: 0;
-}
-
-.product {
-	display: block;
-	border: 1px solid #004483;
-	border-radius: 3px;
-	position: relative;
-	background: #fff;
-	margin: 0 20px 20px 0;
-	text-decoration: none;
-	color: #474747;
-	z-index: 0;
-	height: 250px;
-	width: 218px;
-}
-.product:hover{
-	border: 2px solid #004483;
-}
-
-.product-wrapper {
-	display: block;
-	width: 100%;
-	float: left;
-	transition: width .2s;
-}
-
-.product-photo {
-	position: relative;
-	padding-bottom: 100%;
-	overflow: hidden;
-}
-
-.product-photo img {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	max-width: 100%;
-	max-height: 100%;
-	margin: auto;
-	transition: transform .4s ease-out;
-}
-
-.product:hover .product-photo img {
-	transform: scale(1.05);
-}
-
-.product-name {
-	text-align: center;
-}
-
-.product-name h3 {
-	margin-top: 0px;
-	text-align: center;
-}
-
-
-
-
-
-
-
-
-
-.vertical-menu{
-	width: 200px;
-}
-
-.metro {
-  list-style: none;
-  padding: 0;
-  margin: 30px 0 30px 0px;
-  border-left: 7px solid #DAE4F1;
-}
-.metro li {line-height: 2em;}
-.metro a {
-  font-size:17px;
-  text-decoration: none;
-  display: block;
-  font-family: 'Noto Sans', sans-serif;
-  color: #000;
-}
-.metro a:before {
-  content: "";
-  display: inline-block;
-  background: #004483;
-  width: 15px;
-  height: 15px;
-  left: -11px;
-  position: relative;
-  border-radius: 50%;
-  margin-right: .5em;
-}
-
-.metro a:hover:before{
-  background: #ae9e62;
-
-}
-.metro a:hover{
-  color: #ae9e62;
-}
-
-
-
-
 .select{
 	display:none;
 	width: 100%;
@@ -310,7 +198,7 @@ footer {
 }
  .select select {
     width: 70%; /* от ширины блока div */
-    padding: .75rem 2.5rem .75rem 1rem;/* отступы от текста до рамки */
+    padding: .50rem 2.5rem .50rem 1rem;/* отступы от текста до рамки */
     background: none; /* убираем фон */
     border: 2px solid #004483; /* рамка */
     border-radius: 5px;/* скругление полей формы */
@@ -322,11 +210,56 @@ footer {
     color: #444;
 }
 
+.product-nav{
+	text-align: center;
+	display: block;
+}
+.menu {
+	width: 100%;
+	display:inline-block;
+}
 
+.menu li {
+	display: inline-block;
+	margin-left: 10px;
+}
 
+.menu a {
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	display: block;
+	line-height: 40px;
+}
 
+.menu a:hover {
+	color: #ae9e62;
+}
 
+.menu li:last-child {
+	margin-right: 0;
+}
 
+/*партнеры*/
+.partners{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.partners ul li {
+	width: 280px;
+	margin:5px;
+	display: inline-block;
+}
+
+@media (max-width: 613px){
+	.partners ul{
+		margin-bottom: -50px;	
+	}
+	.b1, .b11, .b2, .b22{
+		display:inline-block;
+	}
+}
 
 @media (max-width: 768px) {
 	/* показываем кнопку для переключения верхней навигации */
@@ -339,6 +272,9 @@ footer {
 	header {
 		padding: 10px 0;
 	}
+	.product-nav{
+		display: none;
+	}
 	/* скрываем верхнее меню, отменяем обтекание, позиционируем его, сместив на высоту шапки сайта */
 	#menu {
 		max-height: 0;
@@ -349,7 +285,7 @@ footer {
 		top: 61px;
 		right: 0;
 		left: 0;
-		margin: 0;
+argin: 0;
 		padding: 0;
 		z-index: 3;
 	}
