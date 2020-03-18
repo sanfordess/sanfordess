@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Каталог</title>
+  <title>ГЛАВНАЯ</title>
   <link href="style.css" rel="stylesheet">
   <link href="media.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js">
@@ -11,6 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js">
   </script>
 </head>
+
 <body>
   <header>
     <nav class="container">
@@ -20,16 +22,19 @@
       </div>
       <ul id="menu">
         <li>
-          <a href="">О КОМПАНИИ</a>
+          <a id="catalogue-btn" href="">ГЛАВНАЯ</a>
         </li>
         <li>
-          <a href="">ДОСТАВКА</a>
+          <a id="about-btn" href="">О КОМПАНИИ</a>
         </li>
         <li>
-          <a href="">ОПЛАТА</a>
+          <a id="delivery-btn" href="">ДОСТАВКА</a>
         </li>
-         <li>
-          <a href="">КОНТАКТЫ</a>
+        <li>
+          <a id="pay-btn" href="">ОПЛАТА</a>
+        </li>
+        <li>
+          <a id="contacts-btn" href="">КОНТАКТЫ</a>
         </li>
       </ul>
     </nav>
@@ -71,6 +76,9 @@
           <li>
             <a href="">ЛИСТВЕНИЦА</a>
           </li>
+          <li>
+            <a href="">КЛЕЕНЫЕ ЩИТЫ</a>
+          </li>
         </ul>
       </div>
       <div class="select">
@@ -89,78 +97,346 @@
       </div>
       <div class="price">
         <div class="price-name">
-          <h3></h3>
+          <h3>ДОСКА ОБРЕЗНАЯ</h3>
         </div>
         <div class="table">
+          <table>
+            <tbody>
+              <tr>
+                <th>РАЗМЕР</th>
+                <th>ЦЕНА ГОСТ</th>
+                <th>ЦЕНА ТУ</th>
+              </tr>
+              <tr>
+                <td>25х100х6000 мм</td>
+                <td rowspan="9">8000 р/м3</td>
+                <td rowspan="9">7000 р/м3</td>
+              </tr>
+              <tr>
+                <td>25х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>25х200х6000 мм</td>
+              </tr>
+              <tr>
+                <td>40х100х6000 мм</td>
+              </tr>
+              <tr>
+                <td>40х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>40х200х6000 мм</td>
+              </tr>
+              <tr>
+                <td>50х100х6000 мм</td>
+              </tr>
+              <tr>
+                <td>50х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>50х200х6000 мм</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price-name">
+          <h3>ДОСКА СТРОГАННАЯ(СУХАЯ)</h3>
+        </div>
+        <div class="table">
+          <table>
+            <tbody>
+              <tr>
+                <th>РАЗМЕР</th>
+                <th>СОРТ</th>
+                <th>ЦЕНА</th>
+              </tr>
+              <tr>
+                <td>20х100х6000 мм</td>
+                <td rowspan="9">1 СОРТ</td>
+                <td rowspan="9">12000 р/м3</td>
+              </tr>
+              <tr>
+                <td>20х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>20х200х6000 мм</td>
+              </tr>
+              <tr>
+                <td>40х100х6000 мм</td>
+              </tr>
+              <tr>
+                <td>40х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>40х200х6000 мм</td>
+              </tr>
+              <tr>
+                <td>50х100х6000 мм</td>
+              </tr>
+              <tr>
+                <td>50х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>50х200х6000 мм</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price-name">
+          <h3>ДОСКА ПОЛОВАЯ(СУХАЯ)</h3>
+        </div>
+        <div class="table">
+          <table>
+            <tbody>
+              <tr>
+                <th>РАЗМЕР</th>
+                <th>СОРТ</th>
+                <th>ЦЕНА</th>
+              </tr>
+              <tr>
+                <td>28х140х6000 мм</td>
+                <td rowspan="4">А/Б</td>
+                <td>480 р/м2</td>
+              </tr>
+              <tr>
+                <td>35х115х6000 мм</td>
+                <td>580 р/м2</td>
+              </tr>
+              <tr>
+                <td>35х140х6000 мм</td>
+                <td>580 р/м2</td>
+              </tr>
+              <tr>
+                <td>45х140х6000 мм</td>
+                <td>720 р/м2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price-name">
+          <h3>БРУС ОБРЕЗНОЙ </h3>
+        </div>
+        <div class="table">
+          <table>
+            <tbody>
+              <tr>
+                <th>РАМЕР</th>
+                <th>ЦЕНА ГОСТ</th>
+                <th>ЦЕНА ТУ</th>
+              </tr>
+              <tr>
+                <td>100х100х6000 мм</td>
+                <td rowspan="5">8000 р/м2</td>
+                <td rowspan="5">7000 р/м2</td>
+              </tr>
+              <tr>
+                <td>100х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>100х200х6000 мм</td>
+              </tr>
+              <tr>
+                <td>150х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>150х200х6000 мм</td>
+              </tr>
+              <tr>
+                <td>200х200х6000 мм</td>
+                <td>8200 р/м2</td>
+                <td>7200 р/м2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price-name">
+          <h3>БРУС СТРОГАННЫЙ(СУХОЙ) </h3>
+        </div>
+        <div class="table">
+          <table>
+            <tbody>
+              <tr>
+                <th>РАМЕР</th>
+                <th>СОРТ</th>
+                <th>ЦЕНА</th>
+              </tr>
+              <tr>
+                <td>100х100х6000 мм</td>
+                <td rowspan="6">1 сорт Сосна</td>
+                <td rowspan="6">12000 р/м2</td>
+              </tr>
+              <tr>
+                <td>100х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>100х200х6000 мм</td>
+              </tr>
+              <tr>
+                <td>150х150х6000 мм</td>
+              </tr>
+              <tr>
+                <td>150х200х6000 мм</td>
+              </tr>
+              <tr>
+                <td>200х200х6000 мм</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price-name">
+          <h3>ИМИТАЦИЯ БРУСА</h3>
+        </div>
+        <div class="table">
+          <table>
+            <tbody>
+              <tr>
+                <th>РАЗМЕР</th>
+                <th>СОРТ</th>
+                <th>ЦЕНА</th>
+              </tr>
+              <tr>
+                <td>13х110х6000 мм</td>
+                <td>ШТИЛЬ А/Б</td>
+                <td>310 р/м2</td>
+              </tr>
+              <tr>
+                <td>13х140х6000 мм</td>
+                <td>ШТИЛЬ А/Б</td>
+                <td>310 р/м2</td>
+              </tr>
+              <tr>
+                <td>16х140х6000 мм</td>
+                <td>А/Б</td>
+                <td>330 р/м2</td>
+              </tr>
+              <tr>
+                <td>16х140х5000 мм</td>
+                <td>А/Б</td>
+                <td>330 р/м2</td>
+              </tr>
+              <tr>
+                <td>16х190х6000 мм</td>
+                <td>А/Б</td>
+                <td>330 р/м2</td>
+              </tr>
+              <tr>
+                <td>16х190х5000 мм</td>
+                <td>А/Б</td>
+                <td>330 р/м2</td>
+              </tr>
+              <tr>
+                <td>18х140х6000 мм</td>
+                <td>А/Б</td>
+                <td>360 р/м2</td>
+              </tr>
+              <tr>
+                <td>21х140х6000 мм</td>
+                <td>А/Б</td>
+                <td>390 р/м2</td>
+              </tr>
+              <tr>
+                <td>21х140х5000 мм</td>
+                <td>А/Б</td>
+                <td>390 р/м2</td>
+              </tr>
+              <tr>
+                <td>21х190х6000 мм</td>
+                <td>А/Б</td>
+                <td>390 р/м9</td>
+              </tr>
+              <tr>
+                <td>21х190х5000 мм</td>
+                <td>А/Б</td>
+                <td>390 р/м2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price-name">
+          <h3>БЛОК ХАУС</h3>
+        </div>
+        <div class="table">
+          <table>
+            <tbody>
+              <tr>
+                <th>РАЗМЕР</th>
+                <th>СОРТ</th>
+                <th>ЦЕНА</th>
+              </tr>
+              <tr>
+                <td>28х140х6000 мм</td>
+                <td rowspan="8">А/Б</td>
+                <td rowspan="2">490 р/м2</td>
+              </tr>
+              <tr>
+                <td>28х140х5000 мм</td>
+              </tr>
+              <tr>
+                <td>35х140х6000 мм</td>
+                <td rowspan="2">590 р/м2</td>
+              </tr>
+              <tr>
+                <td>35х140х5000 мм</td>
+              </tr>
+              <tr>
+                <td>35х190х6000 мм</td>
+                <td rowspan="2">590 р/м2</td>
+              </tr>
+              <tr>
+                <td>35х190х5000 мм</td>
+              </tr>
+              <tr>
+                <td>45х190х6000 мм</td>
+                <td rowspan="2">750 р/м2</td>
+              </tr>
+              <tr>
+                <td>45х190х5000 мм</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="price-name">
+          <h3>ЕВРОВАГОНКА</h3>
+        </div>
+        <div class="table">
+          <table>
+            <tbody>
+              <tr>
+                <th>РАЗМЕР</th>
+                <th>СОРТ</th>
+                <th>ЦЕНА</th>
+              </tr>
+              <tr>
+                <td>12,5х96х3000 мм</td>
+                <td rowspan="2">А/Б</td>
+                <td rowspan="2">260 р/м2</td>
+              </tr>
+              <tr>
+                <td>12,5х96х6000 мм</td>
+              </tr>
+              <tr>
+                <td>12,5х96х2500 мм</td>
+                <td rowspan="5">С</td>
+                <td rowspan="5">160 р/м2</td>
+              </tr>
+              <tr>
+                <td>12,5х96х3000 мм</td>
+              </tr>
+              <tr>
+                <td>12,5х96х4000 мм</td>
+              </tr>
+              <tr>
+                <td>12,5х96х5000 мм</td>
+              </tr>
+              <tr>
+                <td>12,5х96х6000 мм</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
-  </section>-
-  <section id="about">
-    <div class="container">
-      <div class="section-name">
-        <h1>О КОМПАНИИ</h1>
-      </div>
-    <!--ФОТО-->
-    <div class="section-name">
-        <h1>ПАРТНЕРЫ</h1>
-      </div>
-    <div class="partners">  
-      <ul>
-        <li>
-          <img src="partners/partner1.svg" alt="">
-        </li>
-        <li>
-          <img src="partners/partner2.svg" alt="">
-        </li>
-        <li>
-          <img src="partners/partner3.svg" alt="">
-        </li>
-        <li>
-          <img src="partners/partner4.svg" alt="">
-        </li>
-        <li>
-          <img src="partners/partner5.svg" alt="">
-        </li>
-        <li>
-          <img  src="partners/partner6.svg" alt="">
-        </li>
-      </ul>
-    </div>
-    </div>
   </section>
-  <!--<section id="delivery">
-    <div class="section-name">
-        <h1>ДОСТАВКА</h1>
-    </div>
-  </section>-->
-  <!--<section id="pay">
-    <div class="section-name">
-        <h1>ОПЛАТА</h1>
-    </div>
-  </section>-->
-  <!--<section id="contacts">
-    <div class="section-name">
-        <h1>КОНТАКТЫ</h1>
-    </div>
-    <div class="infomation">
-    </div>
-    <div class="maps">
-    </div>
-  </section>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
   <footer>
     <div class="container">
       <div class="footer-col">
@@ -179,9 +455,10 @@
     </div>
   </footer>
   <script>
-            $('.nav-toggle').on('click', function(){
-                $('#menu').toggleClass('active');
-                }); 
+    $('.nav-toggle').on('click', function() {
+      $('#menu').toggleClass('active');
+    });
   </script>
 </body>
+
 </html>
