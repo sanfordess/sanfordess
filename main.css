@@ -75,10 +75,6 @@ input, select, textarea {
 	color: #014680;
 	font-size: 30px;
 	font-weight: bold;
-	border:2px dashed #014680;
-	width: 250px;
-	margin:0 auto;
-	background-color:rgba(25, 25, 25, 0.1);;
 }
 /* Basic */
 
