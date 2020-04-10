@@ -71,6 +71,15 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.number-p{
+	color: #014680;
+	font-size: 30px;
+	font-weight: bold;
+	border:2px dashed #014680;
+	width: 250px;
+	margin:0 auto;
+	background-color:rgba(25, 25, 25, 0.1);;
+}
 /* Basic */
 
 	html {
@@ -2145,5 +2154,8 @@ input, select, textarea {
 	display: inline-block;
 	margin: 5px;
 	width: 300px;
+}
+.number{
+	color: #014680;
 }
 
